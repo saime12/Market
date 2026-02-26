@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: gray;
+}
+
+h1 {
+    color: blanchedalmond;
+    margin: 0;
+}
