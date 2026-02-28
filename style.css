@@ -5,9 +5,47 @@ body {
 
 .header {
     background-color: gray;
+
 }
 
-h1 {
-    color: blanchedalmond;
+.header h1 {
     margin: 0;
+    color: red;
+
+}
+
+.newDiv {
+    border: 2px solid #4caf50;    
+    border-radius: 8px;           
+    padding: 16px;                 
+    margin: 40px 30px;           
+    max-width: 600px;             
+    background-color: #f9f9f9;   
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    font-family: Arial, sans-serif;
+}
+
+.newDiv h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.price {
+    font-weight: bold;
+    margin: 8px 0;
+    color: #555;
+    text-align: left;
+    
+}
+
+.newDiv .description {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #444;
+    white-space: pre-wrap; 
+}
+
+.span2 {
+    margin-left: 10px;
 }
