@@ -14,11 +14,9 @@ function toBase64(file) {
         reader.onload = function () {
             resolve(reader.result)
         }
-
         reader.onerror = function () {
             reject("error reading file")
         }
-
         reader.readAsDataURL(file)
     })
 }
@@ -115,6 +113,13 @@ if(addBtn) {
             p3.textContent = obj.description
             p3.classList.add("description")
             newDiv.appendChild(p3)
+            const buyBtn = document.createElement("button")
+            buyBtn.innerText = "Buy"
+            buyBtn.addEventListener('click', function() {
+                
+            })
+            newDiv.appendChild(buyBtn)
+
         }
     }
 loop()
