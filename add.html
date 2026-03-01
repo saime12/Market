@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>add listings</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container, button {
+            margin: 40px 30px;
+        }
+
+        h1 {
+            margin: 0;
+            background-color: crimson;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <div>
-        <h1>add listing</h1>
+        <h1>add your listing</h1>
     </div>
-    <div>
-        <p>title</p>
+    <div class="container">
+        <p>Title</p>
         <input id="title" type="text">
-        <p>price</p>
+        <p>Price</p>
         <input id="price" type="number">
-        <p>description</p>
+        <p>Description</p>
         <input id="description" type="text">
-        <p>image</p>
+        <p>Image</p>
         <input id="image" type="file">
     </div>
 
